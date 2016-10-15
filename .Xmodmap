@@ -1,0 +1,12 @@
+keycode 9 = Escape Caps_Lock Escape
+clear Lock
+keycode 66 = Control_L
+add Control = Control_L
+
+!moving keys around
+
+keycode  50 = Shift_L NoSymbol Shift_L 
+keycode  23 = Tab ISO_Left_Tab Tab ISO_Left_Tab
+keycode  22 = BackSpace BackSpace BackSpace BackSpace
+keycode  37 = Control_L NoSymbol Control_L
+
