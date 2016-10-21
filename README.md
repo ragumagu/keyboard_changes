@@ -6,6 +6,7 @@ I use the standard qwerty layout. Here are some of the mods I would like to use 
     and acts as control when pressed with other keys.
 2. Both left and right Shift keys emit backspace when pressed singly and act as shift when pressed with other keys.
 3. The escape key (at the top-left corner) emits escape when pressed singly and Shift+Escape toggles caps lock.
+4. Some symbols have been moved around for ease of typing.
 
 I set up this mod using xcape (Thank you, /u/alols @github) and a script that calls xcape and xmodmap.
 The mod files and scripts are in this repository. 
