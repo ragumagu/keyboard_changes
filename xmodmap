@@ -22,3 +22,7 @@ keycode  23 = Tab ISO_Left_Tab Tab ISO_Left_Tab
 keycode  22 = BackSpace BackSpace BackSpace BackSpace
 keycode 37 = Control_L NoSymbol Control_L
 
+keycode 65 = Hyper_L
+remove mod4 = Hyper_L
+add Control = Hyper_L
+keycode any = space
