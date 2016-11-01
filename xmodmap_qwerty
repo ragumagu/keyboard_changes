@@ -2,8 +2,6 @@
 keycode 9 = Escape Caps_Lock Escape
 clear Lock
 
-keycode 66 = Escape
-
 !moving keys around (or not)
 keycode 18 = 9 backslash 9 backslash
 keycode 19 = 0 bar 0 bar
@@ -21,3 +19,4 @@ keycode 23 = Tab ISO_Left_Tab Tab ISO_Left_Tab
 keycode 22 = BackSpace BackSpace BackSpace BackSpace
 keycode 37 = Control_L NoSymbol Control_L
 keycode 65 = space
+keycode 66 = Escape
