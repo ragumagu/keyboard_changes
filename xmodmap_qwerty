@@ -1,0 +1,23 @@
+!This allows top-left escape key to toggle Caps_Lock when Shift+Escape is pressed
+keycode 9 = Escape Caps_Lock Escape
+clear Lock
+
+keycode 66 = Escape
+
+!moving keys around (or not)
+keycode 18 = 9 backslash 9 backslash
+keycode 19 = 0 bar 0 bar
+keycode 20 = minus underscore minus underscore
+keycode 21 = equal plus equal plus 
+keycode 34 = braceleft braceright braceleft braceright
+keycode 35 = bracketleft bracketright bracketleft bracketright
+keycode 48 = parenleft parenright parenleft parenright
+keycode 50 = Shift_L NoSymbol Shift_L 
+keycode 51 = less greater less greater 
+keycode 59 = comma apostrophe
+keycode 60 = period quotedbl period quotedbl
+keycode 61 = slash question slash question
+keycode 23 = Tab ISO_Left_Tab Tab ISO_Left_Tab
+keycode 22 = BackSpace BackSpace BackSpace BackSpace
+keycode 37 = Control_L NoSymbol Control_L
+keycode 65 = space
