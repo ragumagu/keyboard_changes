@@ -2,8 +2,15 @@
 keycode 9 = Escape Caps_Lock Escape
 clear Lock
 
+!This changes the caps lock key into a control key.
 keycode 66 = Control_L
 add Control = Control_L
+
+!This converts space bar into a hyper_L = control key
+keycode 65 = Hyper_L
+remove mod4 = Hyper_L
+add Control = Hyper_L
+keycode any = space
 
 !moving keys around (or not)
 keycode 18 = 9 backslash 9 backslash
@@ -21,8 +28,3 @@ keycode 61 = slash question slash question
 keycode  23 = Tab ISO_Left_Tab Tab ISO_Left_Tab
 keycode  22 = BackSpace BackSpace BackSpace BackSpace
 keycode 37 = Control_L NoSymbol Control_L
-
-keycode 65 = Hyper_L
-remove mod4 = Hyper_L
-add Control = Hyper_L
-keycode any = space
