@@ -1,15 +1,13 @@
 # keyboard-changes
 This repo includes some keyboard modifications that I use on my systems.
 
-I use the standard qwerty layout. Here are some of the mods I would like to use on my keyboards.
-1. The key next to the one which emits 'a', (i.e. generally the caps lock key), emits an escape when pressed singly
-    and acts as control when pressed with other keys.
-2. Both left and right Shift keys emit backspace when pressed singly and act as shift when pressed with other keys. The space bar emits a space when pressed
-    singly and acts as control when pressed with other keys.
-3. The escape key (at the top-left corner) emits escape when pressed singly and Shift+Escape toggles caps lock.
-4. Some symbols have been moved around for ease of typing.
+I use the standard qwerty layout. In the following image, you can see the changes that I have implemented.
+![alt tag](https://cloud.githubusercontent.com/assets/22856511/19884944/0d7d292c-a042-11e6-91bd-4b40046dc791.png)
 
-I set up this mod using xcape (Thank you, /u/alols @github) and a script that calls xcape and xmodmap.
-The mod files and scripts are in this repository. 
+This feels a little buggy when you type too fast (this is not a bug, but a consequence of using the programs in this way).
+So you might want to be able to easily turn off Space + Control for some applications (like tetris and such).
+![alt tag](https://cloud.githubusercontent.com/assets/22856511/19884946/0ee6a52c-a042-11e6-8f4d-603a57992180.png)
 
-You can call the script using startup applications in ubuntu. You can also include a line in ~/.bashrc to start said script.
+I have set up this mod using xcape (Thank you, /u/alols @github) and some other scripts.
+The necessary files and scripts are in this repository. 
+It helps to set up aliases in your .bashrc to quickly change between layouts.
