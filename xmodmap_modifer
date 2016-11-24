@@ -1,6 +1,10 @@
+!This clears the modifiers
+clear Control
+clear Shift
+clear Lock
+clear Mod4
 !This allows top-left escape key to toggle Caps_Lock when Shift+Escape is pressed
 keycode 9 = Escape Caps_Lock Escape
-clear Lock
 
 !This changes the caps lock key into a control key.
 keycode 66 = Control_L
@@ -20,11 +24,11 @@ keycode 21 = equal plus equal plus
 keycode 34 = braceleft braceright braceleft braceright
 keycode 35 = bracketleft bracketright bracketleft bracketright
 keycode 48 = parenleft parenright parenleft parenright
-keycode  50 = Shift_L NoSymbol Shift_L 
+keycode 50 = Shift_L NoSymbol Shift_L 
 keycode 51 = less greater less greater 
 keycode 59 = comma apostrophe
 keycode 60 = period quotedbl period quotedbl
 keycode 61 = slash question slash question
-keycode  23 = Tab ISO_Left_Tab Tab ISO_Left_Tab
-keycode  22 = BackSpace BackSpace BackSpace BackSpace
+keycode 23 = Tab ISO_Left_Tab Tab ISO_Left_Tab
+keycode 22 = BackSpace BackSpace BackSpace BackSpace
 keycode 37 = Control_L NoSymbol Control_L
