@@ -1,3 +1,7 @@
+!This clears the modifier keys
+clear Control
+clear Lock
+clear Shift
 !This allows top-left escape key to toggle Caps_Lock when Shift+Escape is pressed
 keycode 9 = Escape Caps_Lock Escape
 clear Lock
