@@ -14,8 +14,8 @@ I have set up this mod using xcape (Thank you, /u/alols @github) and some other 
 The necessary files and scripts are in this repository. 
 It helps to set up aliases in your .bashrc to quickly change between layouts, like:
  ```
- alias km='keyboard_modifier.sh'
- alias kq='keyboard_qwerty.sh'
+ alias km='keyboard_normal.sh'
+ alias kq='keyboard_space_control_off.sh'
  ```
  Although, Xmodmap is not recommended, I have used it because it is easier to use(to switch source files) than xkb and 
  works perfectly for my purpose.
