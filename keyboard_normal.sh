@@ -1,8 +1,8 @@
 #!/bin/bash
 #This file puts the keyboard layout in modifier mode. That is, the space bar multiplexes with control and shift with backspace
 #and caps lock is turned into control and escape.
-# This line calls xmodmap to use ~/.xmodmap
-xmodmap /home/user/.xmodmap
+# This line calls xmodmap to use ~/.xmodmap_normal
+xmodmap /home/user/.xmodmap_normal
 
 #This calls xcape and refreshes it, and gives some arguments.
 /home/user/xcape/xcape
