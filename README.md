@@ -12,6 +12,11 @@ So you might want to be able to easily turn off Space + Control for some applica
 
 I have set up this mod using xcape (Thank you, /u/alols @github) and some other scripts.
 The necessary files and scripts are in this repository. 
+Once you clone this repository, you will need to give the scripts some permissions in order to make them executable.
+```
+chmod +x /home/user/keyboard_changes/keyboard_normal.sh
+chmod +x /home/user/keyboard_changes/keyboard_space_control_off.sh
+```
 It helps to set up aliases in your .bashrc to quickly change between layouts, like:
  ```
  alias km='keyboard_normal.sh'
@@ -19,4 +24,3 @@ It helps to set up aliases in your .bashrc to quickly change between layouts, li
  ```
  Although, Xmodmap is not recommended, I have used it because it is easier to use(to switch source files) than xkb and 
  works perfectly for my purpose.
- 
