@@ -1,4 +1,4 @@
-# keyboard-changes
+# keyboard_changes
 This repo includes some keyboard modifications that I use on my systems.
 
 I use the standard qwerty layout. In the following image, you can see the changes that I have implemented.
