@@ -8,3 +8,4 @@ xmodmap /home/user/.xmodmap
 /home/user/xcape/xcape
 killall /home/user/xcape/xcape
 /home/user/xcape/xcape -e 'Control_L=Escape;Shift_L=BackSpace;Shift_R=BackSpace;Hyper_L=space' -t 200
+echo "Keyboard is now in normal mode."
