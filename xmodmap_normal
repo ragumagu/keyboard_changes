@@ -10,6 +10,12 @@ keycode 9 = Escape Caps_Lock Escape
 keycode 66 = Control_L
 add Control = Control_L
 
+!This adds the left and right shift keys
+
+ keycode 50 = Shift_L NoSymbol Shift_L
+ keycode 62 = Shift_R NoSymbol Shift_R
+ add Shift = Shift_L Shift_R
+
 !This converts space bar into a hyper_L = control key
 keycode 65 = Hyper_L
 remove mod4 = Hyper_L
