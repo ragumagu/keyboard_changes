@@ -13,6 +13,13 @@ keycode 50 = Shift_L NoSymbol Shift_L
 keycode 62 = Shift_R NoSymbol Shift_R
 add Shift = Shift_L Shift_R
 
+
+!This adds the left and right control keys
+ 
+keycode 37 = Control_L NoSymbol Control_L
+keycode 105 = Control_R NoSymbol Control_R
+add Control = Control_L Control_R
+
 !moving keys around (or not)
 keycode 18 = 9 backslash 9 backslash
 keycode 19 = 0 bar 0 bar
