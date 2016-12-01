@@ -19,8 +19,8 @@ chmod +x /home/user/keyboard_changes/keyboard_space_control_off.sh
 ```
 It helps to set up aliases in your .bashrc to quickly change between layouts, like:
  ```
- alias km='keyboard_normal.sh'
- alias kq='keyboard_space_control_off.sh'
+ alias kk='keyboard_normal.sh'
+ alias kj='keyboard_space_control_off.sh'
  ```
  Although, Xmodmap is not recommended, I have used it because it is easier to use(to switch source files) than xkb and 
  works perfectly for my purpose.
