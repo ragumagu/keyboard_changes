@@ -2,6 +2,7 @@
 clear Control
 clear Shift
 clear Lock
+clear Mod3
 clear Mod4
 !This allows top-left escape key to toggle Caps_Lock when Shift+Escape is pressed
 keycode 9 = Escape Caps_Lock Escape
@@ -25,7 +26,7 @@ add Control = Control_L
  !This adds the left and right super keys
  keycode 133 = Super_L
  keycode 134 = Super_R
- add Super = Super_L Super_R
+ add Mod3 = Super_L Super_R
 
 !This converts space bar into a hyper_L = control key
 keycode 65 = Hyper_L
