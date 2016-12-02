@@ -20,6 +20,11 @@ keycode 37 = Control_L NoSymbol Control_L
 keycode 105 = Control_R NoSymbol Control_R
 add Control = Control_L Control_R
 
+!This adds the left and right super keys
+keycode 133 = Super_L
+keycode 134 = Super_R
+add Super = Super_L Super_R
+
 !moving keys around (or not)
 keycode 18 = 9 backslash 9 backslash
 keycode 19 = 0 bar 0 bar
