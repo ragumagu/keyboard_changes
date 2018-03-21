@@ -27,16 +27,17 @@ keycode 134 = Super_R
 add Mod3 = Super_L Super_R
 
 !moving keys around (or not)
-keycode 18 = 9 backslash 9 backslash
-keycode 19 = 0 bar 0 bar
+keycode 18 = 9 parenleft 9 parenleft
+keycode 19 = 0 parenright 0 parenright 
 keycode 20 = minus underscore minus underscore
 keycode 21 = equal plus equal plus 
-keycode 34 = braceleft braceright braceleft braceright
-keycode 35 = bracketleft bracketright bracketleft bracketright
-keycode 48 = parenleft parenright parenleft parenright
-keycode 51 = less greater less greater 
-keycode 59 = comma apostrophe
-keycode 60 = period quotedbl period quotedbl
+keycode 34 = bracketleft braceleft bracketleft braceleft 
+keycode 35 = bracketright braceright bracketright braceright
+keycode 48 = apostrophe quotedbl apostrophe quotedbl
+keycode 50 = Shift_L NoSymbol Shift_L 
+keycode 51 = backslash bar backslash bar
+keycode 59 = comma less comma less
+keycode 60 = period greater period greater
 keycode 61 = slash question slash question
 keycode 23 = Tab ISO_Left_Tab Tab ISO_Left_Tab
 keycode 22 = BackSpace BackSpace BackSpace BackSpace
