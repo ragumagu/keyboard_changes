@@ -10,9 +10,10 @@ So you might want to be able to easily turn off Space + Control for some applica
 
 ![alt tag](https://cloud.githubusercontent.com/assets/22856511/19884946/0ee6a52c-a042-11e6-8f4d-603a57992180.png)
 
-I have set up this mod using xcape (Thank you, /u/alols @github) and some other scripts.
-The necessary files and scripts are in this repository. 
-Once you clone this repository, you will need to give the scripts some permissions in order to make them executable.
+I have set up this mod using xcape (Thank you, /u/alols @github) and some other scripts. You have to set up xcape first.
+Head over to https://github.com/alols/xcape and install it.
+
+Then clone this repository; you will need to give the scripts some permissions in order to make them executable.
 ```
 chmod +x /home/user/keyboard_changes/keyboard_normal.sh
 chmod +x /home/user/keyboard_changes/keyboard_space_control_off.sh
