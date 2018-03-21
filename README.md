@@ -3,14 +3,14 @@ This repo includes some keyboard modifications that I use on my systems.
 
 I use the standard qwerty layout. In the following image, you can see the changes that I have implemented.
 
-#![alt tag](https://cloud.githubusercontent.com/assets/22856511/19884944/0d7d292c-a042-11e6-91bd-4b40046dc791.png)
+<!-- #![alt tag](https://cloud.githubusercontent.com/assets/22856511/19884944/0d7d292c-a042-11e6-91bd-4b40046dc791.png)
 
-![alt tag](https://github.com/shrinidhihr98/keyboard_changes/keyboard layout normal.png)
+<!-- ![alt tag](https://github.com/shrinidhihr98/keyboard_changes/keyboard layout normal.png) -->
 
 This feels a little buggy when you type too fast (this is not a bug, but a consequence of using the programs in this way).
 So you might want to be able to easily turn off Space + Control for some applications (like tetris and such).
 
-![alt tag](https://cloud.githubusercontent.com/assets/22856511/19884946/0ee6a52c-a042-11e6-8f4d-603a57992180.png)
+<!-- ![alt tag](https://cloud.githubusercontent.com/assets/22856511/19884946/0ee6a52c-a042-11e6-8f4d-603a57992180.png) -->
 
 I have set up this mod using xcape (Thank you, /u/alols @github) and some other scripts. You have to set up xcape first.
 Head over to https://github.com/alols/xcape and install it.
