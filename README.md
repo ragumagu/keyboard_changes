@@ -7,10 +7,14 @@ I use the standard qwerty layout. In the following image, you can see the change
 
 <!-- ![alt tag](https://github.com/shrinidhihr98/keyboard_changes/keyboard layout normal.png) -->
 
+![keyboard-layout normal](https://user-images.githubusercontent.com/22856511/37712532-33175aaa-2d3a-11e8-8c14-891fc60c4452.png)
+
+
 This feels a little buggy when you type too fast (this is not a bug, but a consequence of using the programs in this way).
 So you might want to be able to easily turn off Space + Control for some applications (like tetris and such).
 
 <!-- ![alt tag](https://cloud.githubusercontent.com/assets/22856511/19884946/0ee6a52c-a042-11e6-8f4d-603a57992180.png) -->
+![keyboard-layout space_control_off](https://user-images.githubusercontent.com/22856511/37712568-474d123a-2d3a-11e8-8141-7ece306ced9e.png)
 
 I have set up this mod using xcape (Thank you, /u/alols @github) and some other scripts. You have to set up xcape first.
 Head over to https://github.com/alols/xcape and install it.
