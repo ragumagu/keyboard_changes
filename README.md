@@ -11,7 +11,7 @@ I use the standard qwerty layout. In the following image, you can see the change
 
 
 This feels a little buggy when you type too fast (this is not a bug, but a consequence of using the programs in this way).
-So you might want to be able to easily turn off Space + Control for some applications (like tetris and such).
+So you might want to be able to easily turn off Space + Control for fast typing.
 
 <!-- ![alt tag](https://cloud.githubusercontent.com/assets/22856511/19884946/0ee6a52c-a042-11e6-8f4d-603a57992180.png) -->
 ![keyboard-layout space_control_off](https://user-images.githubusercontent.com/22856511/37712568-474d123a-2d3a-11e8-8141-7ece306ced9e.png)
