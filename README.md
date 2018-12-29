@@ -29,5 +29,3 @@ It helps to set up aliases in your .bashrc to quickly change between layouts, li
  alias kk='keyboard_normal.sh'
  alias kj='keyboard_space_control_off.sh'
  ```
- Although, Xmodmap is not recommended, I have used it because it is easier to use(to switch source files) than xkb and 
- works perfectly for my purpose.
