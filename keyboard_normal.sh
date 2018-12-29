@@ -5,7 +5,7 @@
 xmodmap /home/user/keyboard_changes/xmodmap_normal
 
 #This calls xcape and refreshes it, and gives some arguments.
-/home/user/xcape/xcape
-killall /home/user/xcape/xcape
-/home/user/xcape/xcape -e 'Control_L=Escape;Shift_L=BackSpace;Shift_R=BackSpace;Hyper_L=space' -t 200
+xcape
+killall xcape
+xcape -e 'Control_L=Escape;Shift_L=BackSpace;Shift_R=BackSpace;Hyper_L=space' -t 200
 echo "Keyboard is now in normal mode."
