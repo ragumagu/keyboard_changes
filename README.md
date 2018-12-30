@@ -62,7 +62,7 @@ The xmodmap files are easily modifiable. But, xmodmap is depreciated. So, if you
 
 1. Modify the xmodmap files.
 2. Comment out the xkbcomp lines and uncomment the xmodmap lines.  Also modify the paths in those lines, if any changes are required.
-3. Run the scripts using kk and kj aliases. Generate the new layouts.
+3. Run the scripts using kk and kj aliases. Cd into the keyboard_changes folder and generate the new layouts.
 ```
 $ kk
 $ xkbcomp :0 xkbNormal
