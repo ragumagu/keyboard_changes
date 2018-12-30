@@ -60,3 +60,4 @@ $ xkbcomp :0 newLayoutFile
 ```
 Now change the xkbcomp lines in the scripts to include the new newLayoutFile.
 The transition to xkb is necessary because xmodmap is depreciated.
+Note that the change to xkbcomp causes a set of warnings to be displayed. These warnings are non-critical, and do not interfere in the working of these scripts. The warnings are raised for undefined and obscure keycodes which are not necessary.
