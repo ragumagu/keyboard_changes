@@ -93,4 +93,4 @@ $ xkbcomp :0 xkbSCO
 ```
 4. Now, revert back by commenting out the xmodmap lines and uncommenting xkbcomp lines.
  
-Note that the change to xkbcomp causes a set of warnings to be displayed. These warnings are non-critical, and do not interfere in the working of these scripts. The warnings are raised for undefined and obscure keycodes which are not necessary. These warnings are disabled by putting -w 0 when calling xkbcomp. However, if the scripts stop working, please raise an issue.
+Note that the change to xkbcomp causes a set of warnings to be displayed. These warnings are non-critical, and do not interfere in the working of these scripts. The warnings are raised for undefined and obscure keycodes which are not necessary. These warnings are disabled by putting `-w 0` when calling xkbcomp. However, if the scripts stop working, please raise an issue.
