@@ -19,7 +19,13 @@ So you might want to be able to easily turn off Space + Control for fast typing.
 I have set up this mod using xcape (Thank you, /u/alols @github) and some other scripts. You have to set up xcape first.
 Head over to https://github.com/alols/xcape and install it.
 
-Then clone this repository; you will need to give the scripts some permissions in order to make them executable.
+Then clone this repository. Make necessary changes to the paths in these script files:
+In keyboard_normal.sh:
+`xkbcomp /home/user/keyboard_changes/xkbNormal $DISPLAY`
+and in keyboard_space_control_off.sh:
+`xkbcomp /home/user/keyboard_changes/xkbSCO $DISPLAY`
+
+You will need to give the scripts some permissions in order to make them executable.
 ```
 chmod +x /home/user/keyboard_changes/keyboard_normal.sh
 chmod +x /home/user/keyboard_changes/keyboard_space_control_off.sh
@@ -29,3 +35,21 @@ It helps to set up aliases in your .bashrc to quickly change between layouts, li
  alias kk='keyboard_normal.sh'
  alias kj='keyboard_space_control_off.sh'
  ```
+Now, you can type
+```
+$ kk
+```
+to enter the normal mode where you have Spacebar acting as a Space when pressed and released, and a Control modifier when used with other keys.
+
+You can type
+```
+$ kj
+```
+to turn off the Space+Ctrl option and keep the other options the same.
+
+# Note: 
+The xmodmap files are easily modifiable. So, if you want to make any changes, modify the xmodmap files, then generate the xkb layout using:
+```
+$ xkbcomp :0 newLayoutFile
+```
+Now change the xkbcomp lines in the scripts to include the new newLayoutFile.
