@@ -4,7 +4,7 @@
 # and caps lock is turned into control and escape.
 
 # This line calls xkbcomp to use ~/keyboard_changes/xkbNormal layout.
-xkbcomp /home/user/keyboard_changes/xkbNormal $DISPLAY
+xkbcomp -w 0 /home/user/keyboard_changes/xkbNormal $DISPLAY
 
 # Using xmodmap
 #xmodmap /home/user/keyboard_changes/xmodmap_normal
