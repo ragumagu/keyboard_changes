@@ -56,7 +56,7 @@ to turn off the Space+Ctrl option and keep the other options the same.
 ### Note: 
 The xmodmap files are easily modifiable. So, if you want to make any changes, modify the xmodmap files.
 However, xmodmap is depreciated. So,  if you want to use xkb, then comment out the xmodmap lines and uncomment the xkb lines.
-You can moodify the xmodmap files. To again generate the new xkb layout using:
+You can modify the xmodmap files. To again generate the new xkb layout, use:
 ```
 $ xkbcomp :0 newLayoutFile
 ```
