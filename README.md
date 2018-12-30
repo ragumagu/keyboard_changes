@@ -39,10 +39,16 @@ $ cd /home/user/keyboard_changes
 5. Make necessary changes to the paths in these lines in the scripts:
 
 In keyboard_normal.sh:
-`xmodmap /home/user/keyboard_changes/xmodmap_normal`
-
+```
+xkbcomp -w 0 /home/shrinidhi/keyboard_changes/xkbNormal $DISPLAY
+#xmodmap /home/user/keyboard_changes/xmodmap_normal
+```
 and in keyboard_space_control_off.sh:
-`xmodmap /home/user/keyboard_changes/xmodmap_space_control_off`
+```
+xkbcomp -w 0 /home/user/keyboard_changes/xkbSCO $DISPLAY
+#xmodmap /home/user/keyboard_changes/xmodmap_space_control_off
+```
+Although lines containing xmodmap are comments, it is better to set them at once if you ever decide to switch between them.
 
 6. You will need to give the scripts some permissions in order to make them executable.
 ```
