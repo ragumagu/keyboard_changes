@@ -54,12 +54,21 @@ $ kj
 to turn off the Space+Ctrl option and keep the other options the same.
 
 ### Note: 
-The xmodmap files are easily modifiable. So, if you want to make any changes, modify the xmodmap files.
-However, xmodmap is depreciated. So,  if you want to use xkb, then comment out the xmodmap lines and uncomment the xkb lines.  Also modify the paths in those lines, if any changes are required.
-You can modify the xmodmap files. To again generate the new xkb layout, use:
-```
-$ xkbcomp :0 newLayoutFile
-```
-Now change the xkbcomp lines in the scripts to include the new newLayoutFile.
+There is an issue with speed and text appearing slower than expected, when using these scripts in Ubuntu 18.04.
 
+xkb makes the scripts work a little faster. So, by default the scripts run with xkbcomp.
+
+The xmodmap files are easily modifiable. But, xmodmap is depreciated. So, if you want to make any changes, 
+
+1. Modify the xmodmap files.
+2. Comment out the xkbcomp lines and uncomment the xmodmap lines.  Also modify the paths in those lines, if any changes are required.
+3. Run the scripts using kk and kj aliases. Generate the new layouts.
+```
+$ kk
+$ xkbcomp :0 xkbNormal
+$ kj
+$ xkbcomp :0 xkbSCO
+```
+4. Now, revert back by commenting out the xmodmap lines and uncommenting xkbcomp lines.
+ 
 Note that the change to xkbcomp causes a set of warnings to be displayed. These warnings are non-critical, and do not interfere in the working of these scripts. The warnings are raised for undefined and obscure keycodes which are not necessary. However, if the scripts stop working, please raise an issue.
