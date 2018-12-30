@@ -27,9 +27,9 @@ $ cd /home/user/keyboard_changes
 
 Make necessary changes to the paths in these lines in the scripts:
 In keyboard_normal.sh:
-`xkbcomp /home/user/keyboard_changes/xkbNormal $DISPLAY`
+`xmodmap /home/user/keyboard_changes/xmodmap_normal`
 and in keyboard_space_control_off.sh:
-`xkbcomp /home/user/keyboard_changes/xkbSCO $DISPLAY`
+`xmodmap /home/user/keyboard_changes/xmodmap_space_control_off`
 
 You will need to give the scripts some permissions in order to make them executable.
 ```
@@ -55,7 +55,7 @@ to turn off the Space+Ctrl option and keep the other options the same.
 
 ### Note: 
 The xmodmap files are easily modifiable. So, if you want to make any changes, modify the xmodmap files.
-However, xmodmap is depreciated. So,  if you want to use xkb, then comment out the xmodmap lines and uncomment the xkb lines.
+However, xmodmap is depreciated. So,  if you want to use xkb, then comment out the xmodmap lines and uncomment the xkb lines.  Also modify the paths in those lines, if any changes are required.
 You can modify the xmodmap files. To again generate the new xkb layout, use:
 ```
 $ xkbcomp :0 newLayoutFile
