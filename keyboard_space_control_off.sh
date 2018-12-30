@@ -3,7 +3,7 @@
 # and only emits a space character. However, the other changes remain.
 
 # Using xmodmap
-xmodmap /home/shrinidhi/keyboard_changes/xmodmap_space_control_off
+xmodmap /home/user/keyboard_changes/xmodmap_space_control_off
 
 # This line calls xkbcomp to use ~/keyboard_changes/xkbSCO layout (xkbSpaceControlOff).
 # xkbcomp /home/user/keyboard_changes/xkbSCO $DISPLAY
