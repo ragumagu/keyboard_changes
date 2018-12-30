@@ -54,10 +54,12 @@ $ kj
 to turn off the Space+Ctrl option and keep the other options the same.
 
 ### Note: 
-The xmodmap files are easily modifiable. So, if you want to make any changes, modify the xmodmap files, then generate the xkb layout using:
+The xmodmap files are easily modifiable. So, if you want to make any changes, modify the xmodmap files.
+However, xmodmap is depreciated. So,  if you want to use xkb, then comment out the xmodmap lines and uncomment the xkb lines.
+You can moodify the xmodmap files. To again generate the new xkb layout using:
 ```
 $ xkbcomp :0 newLayoutFile
 ```
 Now change the xkbcomp lines in the scripts to include the new newLayoutFile.
-The transition to xkb is necessary because xmodmap is depreciated.
-Note that the change to xkbcomp causes a set of warnings to be displayed. These warnings are non-critical, and do not interfere in the working of these scripts. The warnings are raised for undefined and obscure keycodes which are not necessary.
+
+Note that the change to xkbcomp causes a set of warnings to be displayed. These warnings are non-critical, and do not interfere in the working of these scripts. The warnings are raised for undefined and obscure keycodes which are not necessary. However, if the scripts stop working, please raise an issue.
