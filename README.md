@@ -83,8 +83,8 @@ xkb makes the scripts work a little faster. So, by default the scripts run with 
 The xmodmap files are easily modifiable. But, xmodmap is depreciated. So, if you want to make any changes, 
 
 1. Modify the xmodmap files.
-2. Comment out the xkbcomp lines and uncomment the xmodmap lines.  Also modify the paths in those lines, if any changes are required.
-3. Run the scripts using kk and kj aliases. Cd into the keyboard_changes folder and generate the new layouts.
+2. Comment out the xkbcomp lines and uncomment the xmodmap lines.
+3. Run the scripts: You can use the kk and kj aliases. Cd into the keyboard_changes folder and generate the new layouts.
 ```
 $ kk
 $ xkbcomp :0 xkbNormal
