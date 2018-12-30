@@ -60,8 +60,8 @@ chmod +x keyboard_space_control_off.sh
 
 1. It helps to set up aliases in your .bashrc to quickly change between layouts, like:
  ```
- alias kk='keyboard_normal.sh'
- alias kj='keyboard_space_control_off.sh'
+ alias kk='/home/user/keyboard_changes/keyboard_normal.sh'
+ alias kj='/home/user/keyboard_changes/keyboard_space_control_off.sh'
  ```
 2. Now, you can type
 ```
