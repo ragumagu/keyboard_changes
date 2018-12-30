@@ -19,7 +19,13 @@ So you might want to be able to easily turn off Space + Control for fast typing.
 I have set up this mod using xcape (Thank you, /u/alols @github) and some other scripts. You have to set up xcape first.
 Head over to https://github.com/alols/xcape and install it.
 
-Then clone this repository. Make necessary changes to the paths in these lines in the scripts:
+Then clone this repository. 
+cd into the repository:
+```
+$ cd /home/user/keyboard_changes
+```
+
+Make necessary changes to the paths in these lines in the scripts:
 In keyboard_normal.sh:
 `xkbcomp /home/user/keyboard_changes/xkbNormal $DISPLAY`
 and in keyboard_space_control_off.sh:
@@ -27,8 +33,8 @@ and in keyboard_space_control_off.sh:
 
 You will need to give the scripts some permissions in order to make them executable.
 ```
-chmod +x /home/user/keyboard_changes/keyboard_normal.sh
-chmod +x /home/user/keyboard_changes/keyboard_space_control_off.sh
+chmod +x keyboard_normal.sh
+chmod +x keyboard_space_control_off.sh
 ```
 It helps to set up aliases in your .bashrc to quickly change between layouts, like:
  ```
