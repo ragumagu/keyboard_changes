@@ -12,5 +12,5 @@ xkbcomp -w 0 /home/user/keyboard_changes/xkbNormal $DISPLAY
 #This calls xcape and refreshes it, and gives some arguments.
 xcape
 killall xcape
-xcape -e 'Control_L=Escape;Shift_L=BackSpace;Shift_R=BackSpace;Hyper_L=space' -t 100
+xcape -e 'Control_L=Escape;Shift_L=BackSpace;Shift_R=BackSpace;Hyper_L=space' -t 200
 echo "Keyboard is now in normal mode."
