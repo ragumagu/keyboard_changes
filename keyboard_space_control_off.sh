@@ -2,8 +2,11 @@
 # This file turns off the dual role of Spacebar as Space and Control. After executing this, the spacebar is no longer a modifier, 
 # and only emits a space character. However, the other changes remain.
 
+# Using xmodmap
+xmodmap /home/shrinidhi/keyboard_changes/xmodmap_space_control_off
+
 # This line calls xkbcomp to use ~/keyboard_changes/xkbSCO layout (xkbSpaceControlOff).
-xkbcomp /home/user/keyboard_changes/xkbSCO $DISPLAY
+# xkbcomp /home/user/keyboard_changes/xkbSCO $DISPLAY
 
 #This calls xcape and refreshes it, and gives some arguments.
 xcape
