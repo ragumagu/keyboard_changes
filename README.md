@@ -53,3 +53,4 @@ The xmodmap files are easily modifiable. So, if you want to make any changes, mo
 $ xkbcomp :0 newLayoutFile
 ```
 Now change the xkbcomp lines in the scripts to include the new newLayoutFile.
+The transition to xkb is necessary because xmodmap is depreciated.
