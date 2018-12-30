@@ -93,4 +93,6 @@ $ xkbcomp :0 xkbSCO
 ```
 4. Now, revert back by commenting out the xmodmap lines and uncommenting xkbcomp lines.
  
-Note that the change to xkbcomp causes a set of warnings to be displayed. These warnings are non-critical, and do not interfere in the working of these scripts. The warnings are raised for undefined and obscure keycodes which are not necessary. These warnings are disabled by putting `-w 0` when calling xkbcomp. However, if the scripts stop working, please raise an issue.
+Note that the change to xkbcomp causes a set of warnings to be displayed. These warnings are non-critical, and do not interfere in the working of these scripts. The warnings are raised for undefined and obscure keycodes which are not necessary. These warnings are disabled by putting `-w 0` when calling xkbcomp. Look at Debian Bug report logs - [#673035](https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=673035) and Bugzilla bug report log [#66344](https://bugs.freedesktop.org/show_bug.cgi?id=66344) for more information.
+
+However, if the scripts stop working, please raise an issue.
