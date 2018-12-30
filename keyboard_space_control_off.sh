@@ -11,5 +11,5 @@ xkbcomp -w 0 /home/user/keyboard_changes/xkbSCO $DISPLAY
 #This calls xcape and refreshes it, and gives some arguments.
 xcape
 killall xcape
-xcape -e 'Shift_L=BackSpace;Shift_R=BackSpace' -t 100
+xcape -e 'Shift_L=BackSpace;Shift_R=BackSpace' -t 200
 echo "Keyboard layout is now in space_control_off mode."
