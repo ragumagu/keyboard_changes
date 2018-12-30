@@ -3,7 +3,7 @@
 # and only emits a space character. However, the other changes remain.
 
 # This line calls xkbcomp to use ~/keyboard_changes/xkbSCO layout (xkbSpaceControlOff).
-xkbcomp /home/shrinidhi/keyboard_changes/xkbSCO $DISPLAY
+xkbcomp /home/user/keyboard_changes/xkbSCO $DISPLAY
 
 #This calls xcape and refreshes it, and gives some arguments.
 xcape
