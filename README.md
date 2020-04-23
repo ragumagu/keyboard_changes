@@ -34,7 +34,7 @@ $ git clone https://github.com/shrinidhihr98/keyboard_changes
 ```
 4. Cd into the repository:
 ```
-$ cd /home/user/keyboard_changes
+$ cd keyboard_changes
 ```
 5. Make necessary changes to the paths in these lines in the scripts:
 
