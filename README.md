@@ -40,13 +40,13 @@ $ cd keyboard_changes
 
 In keyboard_normal.sh:
 ```
-xkbcomp -w 0 /home/shrinidhi/keyboard_changes/xkbNormal $DISPLAY
-#xmodmap /home/user/keyboard_changes/xmodmap_normal
+xkbcomp -w 0 /path/to/keyboard_changes/xkbNormal $DISPLAY
+#xmodmap /path/to/keyboard_changes/xmodmap_normal
 ```
 and in keyboard_space_control_off.sh:
 ```
-xkbcomp -w 0 /home/user/keyboard_changes/xkbSCO $DISPLAY
-#xmodmap /home/user/keyboard_changes/xmodmap_space_control_off
+xkbcomp -w 0 /path/to/keyboard_changes/xkbSCO $DISPLAY
+#xmodmap /path/to/keyboard_changes/xmodmap_space_control_off
 ```
 Although lines containing xmodmap are comments, it is better to set them at once if you ever decide to switch between them.
 
@@ -60,8 +60,8 @@ chmod +x keyboard_space_control_off.sh
 
 1. It helps to set up aliases in your .bashrc to quickly change between layouts, like:
  ```
- alias kk='/home/user/keyboard_changes/keyboard_normal.sh'
- alias kj='/home/user/keyboard_changes/keyboard_space_control_off.sh'
+ alias kk='/path/to/keyboard_changes/keyboard_normal.sh'
+ alias kj='/path/to/keyboard_changes/keyboard_space_control_off.sh'
  ```
 2. Now, you can type
 ```
